@@ -76,7 +76,7 @@ def main():
     X_tr_res = to_categorical(pd.DataFrame(X_tr_res, columns=X.columns))
     X_te_cat  = to_categorical(X_te)
 
-    # 6) LGBM 학습
+    # LGBM 학습
     clf = lgb.LGBMClassifier(
     objective="multiclass",
     num_class=y.nunique(),
