@@ -11,8 +11,6 @@ from imblearn.over_sampling import SMOTENC
 RANDOM_STATE = 42
 TEST_SIZE = 0.2
 
-# DATA_DENSITY = os.getenv("DENSITY_CSV", "density.csv")
-# DATA_CONGESTION = os.getenv("CONGESTION_CSV", "congestion.csv")
 DATA_DENSITY = "./density.csv"
 DATA_CONGESTION = "./congestion.csv"
 MODEL_DIR = "./model"
